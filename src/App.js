@@ -34,6 +34,7 @@ class App extends Component {
   render () {
     return (
       <div className='App'>
+      <h1>Firebase Authentication</h1>
         {this.state.isSignedIn ? (
           <div>
             <h1>Signed In!!</h1>
